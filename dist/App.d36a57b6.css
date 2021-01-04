@@ -1,0 +1,72 @@
+/* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu+Mono&display=swap');
+
+body {
+  background-color: aquamarine;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 16px;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  font-family: 'Press Start 2P', cursive;
+}
+
+#root {
+  width: 95vw;
+  margin: auto;
+}
+
+/* Page styling */
+.main-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.title {
+  padding: 1rem;
+  border: 1px dashed navy;
+  font-size: 1.2rem;
+}
+
+.welcome-msg {
+  font-size: 0.8rem;
+  line-height: 1.3;
+  width: 70vw;
+  padding-top: 10%;
+}
+
+/* Grid Project Container */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 8%;
+}
+
+.p-box-container {
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-box {
+  font-size: 17px;
+}
+
+/* Footer */
+.copy-text {
+  margin-top: 10%;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 0.8rem;
+}
+
+
+/*# sourceMappingURL=/App.d36a57b6.css.map */

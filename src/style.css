@@ -1,0 +1,40 @@
+/* Global styles */
+
+.page-heading {
+  margin-top: 10%;
+}
+
+.margin-space {
+  margin: 1rem;
+}
+
+.padding-space {
+  padding: 1rem;
+}
+
+/* Project Dizzy */
+@keyframes infinite-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  animation: infinite-rotate 2s linear infinite;
+}
+
+@keyframes infinite-anti-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.anti-rotate {
+  animation: infinite-anti-rotate 2s linear infinite;
+}
